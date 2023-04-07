@@ -1,0 +1,34 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "What's up"],
+            "responses": ["Hello there!", "Hi!", "Hey!", "How are you doing today?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "See ya"],
+            "responses": ["Goodbye!", "See you later!", "Take care!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thank you", "Thanks", "Appreciate it", "Thank you so much"],
+            "responses": ["You're welcome!", "No problem!", "My pleasure!"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["Can you help me?", "I need some help", "What can you help me with?", "Help"],
+            "responses": ["Of course! What can I help you with?", "Sure thing! What do you need help with?"]
+        },
+        {
+            "tag": "weather",
+            "patterns": ["What's the weather like?", "What's the forecast?", "Is it going to rain?", "How hot is it?"],
+            "responses": ["I'm not sure. Where are you located?", "I don't know. Can you give me your location?"]
+        },
+       {
+            "tag": "hour",
+            "patterns": ["what time", "hours?"],
+            "responses": ["24/7"]
+        }
+    ]
+}
